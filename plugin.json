@@ -1,0 +1,12 @@
+{
+    "name": "Drop pageview events",
+    "url": "https://github.com/matt-mg/drop-pageview-events-plugin",
+    "description": "This plugin will drop all pageview events before they are ingested into PostHog.  Dropped pageview events will not be billed.",
+    "main": "index.js",
+    "posthogVersion": ">= 1.25.0",
+    "config": [
+        {
+            "markdown": "No configuration needed."
+        }
+    ]
+}
